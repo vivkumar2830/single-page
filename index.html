@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single page website |Minor project</title>
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .color-teal {
+            color: teal;
+        }
+
+        .icon-lg {
+            font-size: 50px;
+
+        }
+
+        .icon-sm {
+            font-size: 25px;
+        }
+
+        .remove-text-decoration {
+            text-decoration: none;
+
+
+        }
+
+        .remove-bullets {
+            list-style: none;
+        }
+        .container{
+            margin-top: 20px;
+        }
+        .message{
+            margin-top: 20px;
+        }
+
+        /* */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/1stop.jpeg" height="60" width="80px" alt="Brand Logo">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="navbar1">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar1">
+                    <div class="navbar-nav ms-auto"></div>
+                    <a href="#" class="nav-item nav-link active">Home</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                        <div class="dropdown-menu">
+                            <a href="#about-us" class="dropdown-item">Information</a>
+                            <a href="#team" class="dropdown-item">Type</a>
+
+                        </div>
+                    </div>
+                    <a href="#contact" class="nav-item nav-link">Contact Us</a>
+
+                </div>
+
+            </div>
+        </nav>
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"> </button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" class="active"> </button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" class="active"> </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/landscape1.jpeg" class="d-block w-100" alt="carousel 1" style="max-height: 100vh">
+                </div>
+                <div class="carousel-item ">
+                    <img src="assets/scape2.jpg" class="d-block w-100" alt="carousel 2" style="max-height: 100vh;">
+                </div>
+                <div class="carousel-item ">
+                    <img src="assets/landscape3.jpeg" class="d-block w-100" alt="carousel 3" style="max-height: 100vh;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </header>
+    <main class="m-2">
+        <section class="container m-4" id="about-us">
+            <h6 class="display-5 text-center">About Us</h6>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="container">
+                        <img src="assets/next1.jpeg" class="d-block w-100" alt="carousel 3" style="max-height: 100vh;">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <p class="text-black-50">The Himalayan Mountains are also known as the Himadri, Himavan or Himachal. 
+                        The Himalayas consist of the youngest and the loftiest mountain chains in the world.</p>
+                    <p>The magnitude of their size can be estimated from the fact that the central axial range 
+                        of the main Himalayas alone stretches for a distance of over 2,400 km (over 22° longitude) 
+                        from the Indus gorge in the west to the Brahmaputra gorge in the east.
+
+                        The width of the Himalayas varies from 500 km in Kashmir to 200 km in
+                        Arunachal Pradesh. The total area of the Himalayan mountain region is 
+                        nearly five lakh sq km. The Pamir, popularly known as the roof of the world 
+                        is the connecting link between the Himalayas and the high ranges of Central Asia.
+
+                        <br>
+                        From the Pamir, the Himalayas extend eastward in the form of an arcuate curve 
+                        which is convex to the south. The southern boundary of the Himalayas is well 
+                        defined by the foothills (300 m contour line) but the northern boundary is rather 
+                        obscure and merges with the edge of the Tibet Plateau.
+                    </p>
+    
+                    <p>
+                        The Himalayas have attained a unique personality owing to their high altitude, steep gradient, 
+                        snow capped summits, deeply dissected topography, youthful drainage, complex geological 
+                        structure and rich temperate flora in the subtropical latitudes.
+                    </p>
+                    <p>
+                        The Himalayan mountain chains have the lofties peaks of the world. The number of peaks higher than 
+                        8,000 metre is 14 and those over 7,500 metre total 20. Of the 94 Asian peaks which exceed 
+                        7,300 metre, all but two are in the Himalaya and Karakoram ranges. The number of peaks over 
+                        7,000 metre runs into hundreds and several peaks above 6000 metre have not been adequately 
+                        counted and mapped. Many of them have not been even given their names till now.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <h6 class="display-6 text-center">What Makes us Unique</h6>
+                <div class="col-md-4">
+                    <div class="container text-center">
+                        <span class="bi bi-person color-teal icon-lg"></span>
+                        <p>Custom Tailored user option</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container text-center">
+                        <span class="bi bi-shield-shaded color-teal icon-lg"></span>
+                        <p>Privacy First Approach</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container text-center">
+                        <span class="bi bi-list color-teal icon-lg"></span>
+                        <p>Multiple Variations</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="team" class="container">
+            <h6 class="display-5 text-center">Types Of Trees
+            </h6>
+            <div class="row">
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 300px;">
+                        <img class="card-img-top" src="assets/tree.jpeg" style="max-height: 30vh;">
+                        <div class="card-body text-center">
+                            <h4 class="card-tittle">Tree</h4>
+                            <p class="card-text">
+        
+                                Location <br>
+                                Type <br>
+                                <i class="bi bi-facebook icon-sm m-2"></i>
+                                <i class="bi bi-instagram icon-sm m-2"></i>
+                                <i class="bi bi-linkedin icon-sm m-2"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 300px;">
+                        <img class="card-img-top" src="assets/tree.jpeg" style="max-height: 25vh;">
+                        <div class="card-body text-center">
+                            <h4 class="card-tittle">Tree</h4>
+                            <p class="card-text">
+        
+                                Location <br>
+                                Type <br>
+                                <i class="bi bi-facebook icon-sm m-2"></i>
+                                <i class="bi bi-instagram icon-sm m-2"></i>
+                                <i class="bi bi-linkedin icon-sm m-2"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 300px;">
+                        <img class="card-img-top" src="assets/tree.jpeg" style="max-height: 30vh;">
+                        <div class="card-body text-center">
+                            <h4 class="card-tittle">Tree</h4>
+                            <p class="card-text">
+        
+                                Location <br>
+                                Type <br>
+                                <i class="bi bi-facebook icon-sm m-2"></i>
+                                <i class="bi bi-instagram icon-sm m-2"></i>
+                                <i class="bi bi-linkedin icon-sm m-2"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 300px;">
+                        <img class="card-img-top" src="assets/tree.jpeg" style="max-height: 30vh;">
+                        <div class="card-body text-center">
+                            <h4 class="card-tittle">Tree</h4>
+                            <p class="card-text">
+        
+                                Location <br>
+                                Type <br>
+                                <i class="bi bi-facebook icon-sm m-2"></i>
+                                <i class="bi bi-instagram icon-sm m-2"></i>
+                                <i class="bi bi-linkedin icon-sm m-2"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 300px;">
+                        <img class="card-img-top" src="assets/tree.jpeg" style="max-height: 30vh;">
+                        <div class="card-body text-center">
+                            <h4 class="card-tittle">Tree</h4>
+                            <p class="card-text">
+        
+                                Location <br>
+                                Type <br>
+                                <i class="bi bi-facebook icon-sm m-2"></i>
+                                <i class="bi bi-instagram icon-sm m-2"></i>
+                                <i class="bi bi-linkedin icon-sm m-2"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 300px;">
+                        <img class="card-img-top" src="assets/tree.jpeg" style="max-height: 30vh;">
+                        <div class="card-body text-center">
+                            <h4 class="card-tittle">Tree</h4>
+                            <p class="card-text">
+        
+                                Location <br>
+                                Type <br>
+                                <i class="bi bi-facebook icon-sm m-2"></i>
+                                <i class="bi bi-instagram icon-sm m-2"></i>
+                                <i class="bi bi-linkedin icon-sm m-2"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 300px;">
+                        <img class="card-img-top" src="assets/tree.jpeg" style="max-height: 30vh;">
+                        <div class="card-body text-center">
+                            <h4 class="card-tittle">Tree</h4>
+                            <p class="card-text">
+        
+                                Location <br>
+                                Type <br>
+                                <i class="bi bi-facebook icon-sm m-2"></i>
+                                <i class="bi bi-instagram icon-sm m-2"></i>
+                                <i class="bi bi-linkedin icon-sm m-2"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 300px;">
+                        <img class="card-img-top" src="assets/tree.jpeg" style="max-height: 30vh;">
+                        <div class="card-body text-center">
+                            <h4 class="card-tittle">Tree</h4>
+                            <p class="card-text">
+        
+                                Location <br>
+                                Type <br>
+                                <i class="bi bi-facebook icon-sm m-2"></i>
+                                <i class="bi bi-instagram icon-sm m-2"></i>
+                                <i class="bi bi-linkedin icon-sm m-2"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 300px;">
+                        <img class="card-img-top" src="assets/tree.jpeg" style="max-height: 30vh;">
+                        <div class="card-body text-center">
+                            <h4 class="card-tittle">Tree</h4>
+                            <p class="card-text">
+        
+                                Location <br>
+                                Type <br>
+                                <i class="bi bi-facebook icon-sm m-2"></i>
+                                <i class="bi bi-instagram icon-sm m-2"></i>
+                                <i class="bi bi-linkedin icon-sm m-2"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </br></br></br></br></br>
+        </section>
+        <h6 id="contact" class="display-5 text-center"><b>Contact Us</b></h6>
+        <section id="Contact" class="container" style="display: flex;align-items: center;justify-content: center;">
+            
+            <div class="col-md-6">
+                <div class="container">
+                    <p class="text-muted text-center fs-3">Here's our contact info </p>
+                    <div class="text-black-s text-center fs-4 ">Our Email</div>
+                    <div class="text-black-50 text-center fs-5"> pro@iiitbh.ac.in</div>
+                    <div class="text-black-s text-center fs-4 ">Our phone No.</div>
+                    <div class="text-black-50 text-center fs-5">+91 8887656200</div>
+                    <div class="text-black-s text-center fs-4 ">Our Address</div>
+                    <div class="text-black-50 text-center fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci delectus accusantium ut porro dolor rerum a assumenda nisi cumque debitis quas, repellat nostrum consectetur sint asperiores, suscipit qui. Facere, error. <br> </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="container">
+                    <p class="text-muted text-center fs-3">You can also write to Us </p>
+                    <div class="container">
+                        <div class="card-shadow">
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Enter Your Name</label>
+                                        <input type="text" class="form-control" name="name" id="name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="emailid" class="form-label">Enter Your Email</label>
+                                        <input type="email" class="form-control" name="email" id="emailid">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject" class="form-label">Enter the subject</label>
+                                        <input type="text" class="form-control" name="subject" id="subject">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message" class="form-label">Enter Your Message</label>
+                                        <textarea class="form-control" name="message" id="message"></textarea>
+                                    </div>
+                                    
+                                    <div class="form-group text-center message">
+                                        <input type="submit" class="btn btn-outline-dark" value="send message">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="container">
+                        <img src="assets/1stop.jpeg" height="60px" width="80px" class="bg-white">
+                        <div>
+                            <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur,
+                                culpa! Omnis deserunt blanditiis ipsa, labore, quidem, ullam iure eos ipsum repudiandae
+                                similique ea officiis! Reiciendis laboriosam at architecto earum velit?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="container">
+                        <p class="text-white fs-5">Quick Links</p>
+                        <ul class="remove-bullets remove-text-decoration">
+                            <li><a href="#about-us" class="remove-text-decoration text-white">About Us</a></li>
+                            <li><a href="#contact" class="remove-text-decoration text-white">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-white text-center">
+                    <p>All rights reserved &copy 2022, <a href="#">Himalaya</a></p>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+        integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js  "></script>
+</body>
+
+</html>
